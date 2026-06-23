@@ -1,0 +1,48 @@
+# Document processing
+pdfplumber==0.11.4        # PDF text extraction with layout awareness
+pytesseract==0.3.13       # Python wrapper for Tesseract OCR engine
+Pillow==10.4.0            # Image processing (required for OCR pipeline)
+pdf2image==1.17.0         # Convert PDF pages to images for OCR
+
+# NLP & entity extraction
+spacy==3.7.6              # Industrial NLP: NER, tokenization, parsing
+
+# Embeddings (local, no API key needed)
+sentence-transformers==3.0.1  # State-of-the-art local embedding models
+
+# Vector storage & database
+psycopg2-binary==2.9.9    # PostgreSQL adapter for Python
+pgvector==0.3.2           # pgvector Python client for vector operations
+sqlalchemy==2.0.31        # ORM and connection pooling
+
+# LLM (local, no API key needed)
+ollama==0.3.1             # Python client for local Ollama LLM server
+
+# API layer
+fastapi==0.112.0          # Modern async Python web framework
+uvicorn==0.30.6           # ASGI server to run FastAPI
+pydantic==2.8.2           # Data validation and settings management
+pydantic-settings==2.4.0  # .env file loading via Pydantic
+
+# UI
+streamlit==1.37.0         # Rapid data app framework
+
+# Evaluation
+ragas==0.1.14             # RAG evaluation framework (RAGAS metrics)
+datasets==2.20.0          # HuggingFace datasets (required by RAGAS)
+
+# Utilities
+python-dotenv==1.0.1      # Load environment variables from .env
+loguru==0.7.2             # Better logging than stdlib logging
+tenacity==8.5.0           # Retry logic with exponential backoff
+pandas==2.2.2             # Data manipulation and analysis
+
+# Testing
+pytest==8.3.2             # Test framework
+pytest-asyncio==0.23.8    # Async test support
+httpx==0.27.0             # Async HTTP client (for testing FastAPI)
+
+# Code quality
+black==24.8.0             # Opinionated code formatter
+ruff==0.5.7               # Fast Python linter
+mypy==1.11.1              # Static type checker
