@@ -56,3 +56,6 @@ class Settings(BaseSettings):
 
 # Single instance imported everywhere else in the codebase
 settings = Settings()
+
+def get_settings() -> Settings:
+    return settings

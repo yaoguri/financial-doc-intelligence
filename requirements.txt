@@ -46,3 +46,10 @@ httpx==0.27.0             # Async HTTP client (for testing FastAPI)
 black==24.8.0             # Opinionated code formatter
 ruff==0.5.7               # Fast Python linter
 mypy==1.11.1              # Static type checker
+alembic == 1.18.4
+ 
+ 
+ 
+ 
+ 
+ 
